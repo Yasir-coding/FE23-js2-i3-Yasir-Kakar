@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+form{
+  text-align: center;
+  background-color: black;
+  padding: 20px;
+}
+
+.productCardStyle button{
+  width: 100px;
+}
+
+.productCardStyle{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: solid 1px black;
+  border-radius: 10px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 1px 5px 5px  black;;
+}
+
+img{
+  height: 300px;
+  max-height: 200px;
+  object-fit: cover;
+
+}
+
+.productContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
